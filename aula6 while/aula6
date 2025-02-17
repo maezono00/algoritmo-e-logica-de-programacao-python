@@ -1,0 +1,10 @@
+somaValor: int
+somaValor = 0
+
+numero = int(input("Digite um número: "))
+
+while numero != 0:
+    numero = int(input("Digite outro número: "))
+    somaValor += numero
+
+print(f"O valor total dos números digitados é: {somaValor}")
